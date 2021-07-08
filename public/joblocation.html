@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<title>Job Location</title>
+		<link rel="stylesheet" href="fontawesome-free-5.3.1-web/fontawesome-free-5.3.1-web/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="./signup/style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<link rel="stylesheet" href="./signup/style.css">
+		<script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+		<script src="jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+
+	<div class="container-fluid wall">
+		<div class="row top-menu">
+			<div class="col-1 div1">
+				<a href="index.html"><img src="IP-logo@3x.png"></a>
+			</div>
+			<div class="col-9 nav_list" >
+				<ul>
+					<li>
+						<a href="joblist.html" >Job List</a>
+					</li>
+					<li>
+						<a href="jobcategory.html">Job Category</a>
+					</li>
+					<li>
+						<a href="companylist.html">Company List</a>
+					</li>
+					<li>
+						<a href="joblocation.html " class="text-warning">Job Location</a>
+					</li>
+
+				</ul>
+			</div>
+			<div class="col-2 btn1">
+				<a class="btn btn-success text-light" href="signin.html">Sign In</a>
+			</div>
+		</div>
+	</div>
+	
+	<!--	responesive nav-->
+	<div class="container-fluid new_nav">
+			<i class="fa fa-bars text-light float-left" id="bar"></i>
+			<a class="btn btn-success float-left ml-3 text-light" href="signin.html">Sign In</a>
+			<div class="img">
+				<a href="index.html" ><img src="IP-logo@3x.png"></a>
+			</div>
+			<div class="sub_nav">
+				<ul>
+					<li>
+						<a href="joblist.html" >Job List</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="jobcategory.html">Job Category</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="companylist.html">Company List</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="joblocation.html" class="text-warning">Job Location</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	<div style="height:100px"></div>
+	<div class="container job_ca">
+		<table class="table table-hover">
+			<tr>
+				<td><a class="h1 text-success">Job Location</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><a href="#" class="h4">Phnom Penh</a></td>
+				<td><a href="#" class="h4">Battambong</a></td>
+			</tr>
+			<tr>
+				<td><a href="#" class="h4">Kompot</a></td>
+				<td><a href="#" class="h4">Kampong Cham</a></td>
+			</tr>
+			<tr>
+				<td><a href="#" class="h4">Kompong Som</a></td>
+				<td><a href="#" class="h4">Siem Reap</a></td>
+			</tr>
+		</table>
+	</div>
+	<script>
+		$(document).ready(function(){
+			$('#bar').click(function(){
+	//			var sub_nav=$('.sub_nav');
+				$('.sub_nav').toggle();
+	//			alert();
+			});
+		});
+		
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,89 @@
+.jumbotron {
+    min-height: 500px;
+    background-image: url("../images/job.jpg");
+    background-size: cover;
+}
+
+/*background viasble input */
+.transparent-input {
+	background-color: rgba(0, 0, 0, 0);
+	/*   border:none;*/
+}
+
+
+/*some background options for jobBox*/
+.jobBox{
+	background: #FF5733;
+}
+
+.jobBox2{
+	background: #FF851B;
+}
+
+.jobBox3{
+	 background: linear-gradient(to right, #6d695a 0%, #6d695a 100%);
+}
+
+.jobBox5{
+    background: linear-gradient(to right, #8d6f22 0%, #8d6f22 100%);
+}
+.jobBox4{
+	 background: linear-gradient(to left, #2863a7 0%, #2863a7 100%);
+}
+.jobBox6{
+    background: linear-gradient(to left, #39969c 0%, #39969c 100%);
+}
+
+body,html, nav{
+	margin: 0;
+	background: #7F7FD5;
+	background: -webkit-linear-gradient(to right, #1FA44C, #1FA44C, #1FA44C);
+	background: linear-gradient(to right, #1FA44C, #1FA44C, #1FA44C);
+}
+
+
+/*//details page container size*/
+#description{
+
+    width: 800px;
+    margin: auto auto;
+
+}
+
+
+
+.semi-square {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.styled-select {
+    background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+    height: 29px;
+    overflow: hidden;
+    width: 150px;
+}
+
+.styled-select select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 29px;
+    padding: 5px; 
+    width: 268px;
+}
+
+.styled-select.slate {
+    background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+    height: 34px;
+    width: 240px;
+}
+
+.styled-select.slate select {
+    border: 1px solid #ccc;
+    font-size: 16px;
+    height: 34px;
+    width: 268px;
+}
+.blue select    { color: #fff; }
