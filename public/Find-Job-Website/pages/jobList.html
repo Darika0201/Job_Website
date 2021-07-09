@@ -13,31 +13,12 @@
 <body>
 
 <!--navbar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light shadow sticky-top mb-3">
-    <div class="container">
-        <a class="navbar-brand" href="../Index.html">Best Job</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow sticky-top mb-3 ">
+    <div class="container btn-success">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="jobList.html">Job List</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="myCV.html">My CV</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="progress.html">Apply Process</a>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a class="btn btn-default btn-rounded " data-toggle="modal" data-target="#exampleModalLong"
-                       id="signInLink">Sign in</a></li>
-            </ul>
-        </div>
     </div>
 </nav>
 
@@ -47,67 +28,81 @@
 <div class="container">
 
     <!--search form-->
-    <div class="row">
-        <form class="form-inline col-md-8 offset-2 shadow-lg py-4">
-             <input type="text" class="form-control transparent-input text-white col-md-8 offset-1" placeholder="I am looking for...">
-                <button type="submit" class="btn btn-outline-primary text-md-center col-md-1.5 offset-1">Search</button>
+    <div class="row" >
+        <form class="form-inline col-md-8 offset-2 shadow-lg py-4" >
+            <div class="  text-md-center-black inline col-md-8 offset-1 ">
+                <select name="catagories" class=" text-dark form-control btn-success col-md-8 ">
+                       <option value="Choose the major">Choose major</option>
+                              <option value="Doctor">Civil engineer</option>
+                              <option value="Management">Achitecture</option>
+                              <option value="Seller">Doctor</option>
+                              <option value="Security">Teacher</option>
+                              <option value="Security">Security</option>
+                              <option value="Security">Cashier</option>
+                              <option value="Security">Lawyer</option>
+                              <option value="Security">Accountant</option>
+                              </select></div>
+             <button type="submit" class="btn text-dark col-md-1.5 offset-1 btn-success " ><a href="./detailA.html" class="text-white">Search</a></button>
+            
         </form>
     </div>
 
     <br>
-
     <!--filter options-->
-    <form>
-        <div class="form-row justify-content-end">
-            <div class="form-group col-md-2">
- 
-                <select class="styled-select blue semi-square">
-                    <option selected>By date</option>
-                    <option>By salary</option>
-                </select>
+    <section class="course pt-1">
+        <h1>Degree we need</h1>
+        <p >Graduate from a World’s Top 1% Business School in Combodia
+            Prepare to change the future</p>
+      
+        <div class="row">
+            <div class="course-col">
+                <h3>Bachelor's degree</h3>
+                <p>Undergraduate Application</p>
             </div>
-            <div class="form-group col-md-2">
-
-                <select class="styled-select blue semi-square">
-                    <option selected>For month</option>
-                    <option>For week</option>
-                </select>
+            <div class="course-col">
+                <h3>Master's degree</h3>
+                <p>Postgraduate academic degree</p>
+            </div>
+            <div class="course-col">
+                <h3>Doctoral's degree</h3>
+                <p>Online undergraduate degrees</p>
             </div>
         </div>
-
-    </form>
+      </section>
     <h3 class="pb-3 mb-4 font-italic border-bottom">
         All Jobs:
     </h3>
-
     <!--job list:-->
+    
     <div class="row mb-2">
-        <div class="col-md-12">
+        <div class="col-md-8">
             <div class="card flex-md-row mb-4 box-shadow h-md-250 jobBox3 shadow-lg">
                 <div class="card-body d-flex flex-column align-items-start">
-                    <h3><strong class="d-inline-block mb-0 text-white">Civil engineer</strong></h3>
+                    <h3><strong class="d-inline-block mb-0 text-success">Civil engineer</strong></h3>
                     <p class="mb-0">
-                        <a class="text-white" href="#">Full</a>
+                        <a class="text-black" >Take this opportunity to put your work forward and celebrate with your peers. 
+                            Complete your submissions for the E&T Innovation Awards 2021.</a>
                     </p>
-                    <div class="mb-1 text-white">June 9</div>
+                    <div class="mb-1 text-success">June 9</div>
                     
-                    <a href="details.html">Continue reading</a>
+                    <a class="text-success" href="details.html">Visit website</a>
 
                 </div>
             </div>
         </div>
     </div>
-
+   
     <div class="row mb-2">
-        <div class="col-md-12">
+        <div class="col-md-8">
             <div class="card flex-md-row mb-4 box-shadow h-md-250 jobBox4 transparent-input shadow-lg">
                 <div class="card-body d-flex flex-column align-items-start">
-                    <h3><strong class="d-inline-block mb-0 text-white">Achitecture</strong></h3>
+                    <h3><strong class="d-inline-block mb-0 text-success">Achitecture</strong></h3>
                     <p class="mb-0">
-                        <a class="text-white" href="#">Full</a>
+                        <a class="text-black">works of art such as literature, music, architecture, or painting. 
+                            TIP: What is considered primary, secondary, or tertiary information </a>
                     </p>
-                    <div class="mb-1 text-white">June 9</div>
-                    <a href="#">Continue reading</a>
+                    <div class="mb-1 text-success">June 9</div>
+                    <a href="detailA.html" class="text-success">Visit website</a>
 
                 </div>
             </div>
@@ -115,15 +110,16 @@
     </div>
 
     <div class="row mb-2">
-        <div class="col-md-12">
+        <div class="col-md-8">
             <div class="card flex-md-row mb-4 box-shadow h-md-250 jobBox5 transparent-input shadow-lg">
                 <div class="card-body d-flex flex-column align-items-start">
-                    <h3><strong class="d-inline-block mb-0 text-white">Doctor</strong></h3>
+                    <h3><strong class="d-inline-block mb-0 text-success">Doctor</strong></h3>
                     <p class="mb-0">
-                        <a class="text-white" href="#">Full</a>
+                        <a class="text-black">Primary Care Physician Results from 6 Web Search Engines. Search Primary Care Physician. 
+                            Look Up Quick Results on ZapMeta. Information 24/7. Web, Images & Video. Wiki, News & More. </a>
                     </p>
-                    <div class="mb-1 text-white">June 9</div>
-                    <a href="#">Continue reading</a>
+                    <div class="mb-1 text-success">June 9</div>
+                    <a href="./detailD.html" class="text-success">Visit website</a>
 
                 </div>
             </div>
@@ -131,76 +127,79 @@
     </div>
 
     <div class="row mb-2">
-        <div class="col-md-12">
+        <div class="col-md-8">
             <div class="card flex-md-row mb-4 box-shadow h-md-250 jobBox6 transparent-input shadow-lg">
                 <div class="card-body d-flex flex-column align-items-start">
-                    <h3><strong class="d-inline-block mb-0 text-white">Teacher</strong></h3>
+                    <h3><strong class="d-inline-block mb-0 text-success">Teacher</strong></h3>
                     <p class="mb-0">
-                        <a class="text-white" href="#">Full</a>
+                        <a class="text-black" >Responsibilities · teaching all areas of the primary curriculum ·
+                             taking responsibility for the progress of a class of primary-age pupils ·</a>
                     </p>
-                    <div class="mb-1 text-white">June 12</div>
-                    <a href="#">Continue reading</a>
+                    <div class="mb-1 text-success">June 9</div>
+                    <a href="./detialT.html" class="text-success" >Visit website</a>
 
                 </div>
             </div>
         </div>
     </div>
     <div class="row mb-2">
-        <div class="col-md-12">
+        <div class="col-md-8">
             <div class="card flex-md-row mb-4 box-shadow h-md-250 jobBox4 transparent-input shadow-lg">
                 <div class="card-body d-flex flex-column align-items-start">
-                    <h3><strong class="d-inline-block mb-0 text-white">Security</strong></h3>
+                    <h3><strong class="d-inline-block mb-0 text-success">Security</strong></h3>
                     <p class="mb-0">
-                        <a class="text-white" href="#">Full</a>
+                        <a class="text-black" >security's primary focus is the balanced protection of the confidentiality, integrity,
+                             and availability of data (also known as the CIA triad) </a>
                     </p>
-                    <div class="mb-1 text-white">June 12</div>
-                    <a href="#">Continue reading</a>
+                    <div class="mb-1 text-success">June 9</div>
+                    <a href="./detailSe.html" class="text-success" >Visit website</a>
 
                 </div>
             </div>
         </div>
     </div>
     <div class="row mb-2">
-        <div class="col-md-12">
+        <div class="col-md-8">
             <div class="card flex-md-row mb-4 box-shadow h-md-250 jobBox5 transparent-input shadow-lg">
                 <div class="card-body d-flex flex-column align-items-start">
-                    <h3><strong class="d-inline-block mb-0 text-white">Cashier</strong></h3>
+                    <h3><strong class="d-inline-block mb-0 text-success">Cashier</strong></h3>
                     <p class="mb-0">
-                        <a class="text-white" href="#">Full</a>
+                        <a class="text-black" >Their job is to ring up customers, enter accurate information in the payment terminal,
+                             wrap up purchases and provide friendly customer service</a>
                     </p>
-                    <div class="mb-1 text-white">June 12</div>
-                    <a href="#">Continue reading</a>
+                    <div class="mb-1 text-success">June 9</div>
+                    <a href="#" class="text-success">Visit website</a>
 
                 </div>
             </div>
         </div>
     </div>
     <div class="row mb-2">
-        <div class="col-md-12">
+        <div class="col-md-8">
             <div class="card flex-md-row mb-4 box-shadow h-md-250 jobBox6 transparent-input shadow-lg">
                 <div class="card-body d-flex flex-column align-items-start">
-                    <h3><strong class="d-inline-block mb-0 text-white">Lawyer</strong></h3>
+                    <h3><strong class="d-inline-block mb-0 text-success">Lawyer</strong></h3>
                     <p class="mb-0">
-                        <a class="text-white" href="#">Full</a>
+                        <a class="text-black">law in the form of constitutions, court cases, statutes, and administrative rules and regulations.</a>
                     </p>
-                    <div class="mb-1 text-white">June 12</div>
-                    <a href="#">Continue reading</a>
+                    <div class="mb-1 text-success">June 9</div>
+                    <a href="./detailL.html" class="text-success">Visit website</a>
 
                 </div>
             </div>
         </div>
     </div>
     <div class="row mb-2">
-        <div class="col-md-12">
+        <div class="col-md-8">
             <div class="card flex-md-row mb-4 box-shadow h-md-250 jobBox4 transparent-input shadow-lg">
                 <div class="card-body d-flex flex-column align-items-start">
-                    <h3><strong class="d-inline-block mb-0 text-white">Accountant</strong></h3>
+                    <h3><strong class="d-inline-block mb-0 text-success">Accountant</strong></h3>
                     <p class="mb-0">
-                        <a class="text-white" href="#">Full</a>
+                        <a class="text-black">accounting information were previously identified, Internal users, External users, and Government</a>
                     </p>
-                    <div class="mb-1 text-white">June 12</div>
+                    <div class="mb-1 text-success">June 9</div>
                    
-                    <a href="#">Continue reading</a>
+                    <a href="./detailAc.html" class="text-success" >Visit website</a>
 
                 </div>
             </div>
